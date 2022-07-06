@@ -1,0 +1,200 @@
+/*
+|	Author: Chouaib Kaddouri;
+|	Theme: Food Order Website Admin;
+|	Version: 1.0; 
+*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	
+
+}
+
+.wrapper{
+	
+	padding: 1%;
+	width: 80%;
+	margin: 0 auto;
+}
+.text-center{
+	text-align: center;
+}
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+.tbl-full{
+	width: 110%;
+	margin-left: -60px;
+	
+}
+.tbl-order{
+	width: 120%;
+	margin-left: -110px;
+}
+
+.tbl-30{
+	width: 50%;
+	margin: 0 0 0 15%;
+}
+fieldset{
+	align-content: center;
+	text-align: center;
+	width: 50%;
+	padding: 5%;
+	margin: 2% auto;
+	border-radius: 15px;
+
+}
+legend{
+
+}
+
+table tr th{
+	border-bottom: 1px solid black;
+	padding: 1% 5px;
+	text-align: left;
+
+	
+
+
+
+
+
+}
+
+table tr td{
+	padding: 1% 2px;
+	text-align: left;
+	margin: 5px;
+
+	
+
+
+	
+
+
+}
+
+table tr td.prdct{
+	max-width: 100px;
+}
+
+.btn-primary{
+	background-color: #1e90ff;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.btn-primary:hover{
+	background-color: #3742fa;
+}
+
+.btn-secondary{
+	background-color: #7bed9f;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.btn-secondary:hover{
+	background-color: #2ed573;
+}
+
+.btn-danger{
+	background-color: #ff6b81;
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.btn-danger:hover{
+	background-color: #ff4757;
+}
+
+.success{
+	color: green;
+}
+
+.error{
+	color: red;
+}
+textarea{
+	resize: vertical; 
+	max-height: 200px;
+}
+
+/* CSS for Menu */
+.menu{
+	border-bottom: 1px solid gray;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	display: inline;
+	padding: 1%;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #ff6b81;
+}
+
+.menu ul li a:hover{
+	color: #ff4757;
+
+}
+/* CSS for Main Content */
+.main-content{
+	background-color: #f1f2f6;
+	padding: 3% 0 15% 0;
+
+
+}
+
+.col-4{
+	width: 18%;
+	background-color: white;
+	margin: 1%;
+	padding: 2%;
+	float: left;
+}
+/* CSS for Footer */
+
+.footer{
+	background-color: #ff4757;
+	color: white;
+}
+
+
+
+/* CSS For Login */
+.login{
+	border: 1px solid grey;
+	width: 30%;
+	margin: 10% auto;
+	padding: 2%;
+
+	
+}
